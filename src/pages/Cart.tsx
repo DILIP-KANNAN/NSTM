@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CartList from '@/components/CartList';
@@ -13,12 +13,12 @@ import CheckoutForm from '@/components/CheckoutForm';
 const Cart = () => {
   const { cartItems } = useCart();
   const [activeTab, setActiveTab] = useState('cart');
-  
+  const navigate = useNavigate();
+
   const isEmpty = cartItems.length === 0;
   
   const handleProceedToCheckout = () => {
-    setActiveTab('checkout');
-    window.scrollTo(0, 0);
+    navigate('/unavailable-services');
   };
   
   return (
