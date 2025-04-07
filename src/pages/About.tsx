@@ -101,6 +101,8 @@ const About = () => {
                 { name: "Ishana S", role: "Finance & Customer Experience Architect" },
                 { name: "Meenakshi G", role: "Cash Flow Specialist & Guest Engagement" },
                 { name: "Aravind s", role: "Plating Perfectionist & Dining Experience Specialist" },
+                { name: "Lokesh Raj J", role: "Food Aesthetic Curator & Presentation Expert" },
+                { name: "Ragul", role: "Video Editor | Turning Vision into Motion" },
               ].map((member, i) => (
                 <div
                   key={i}
