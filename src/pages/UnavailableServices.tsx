@@ -28,13 +28,13 @@ const UnavailableServices = () => {
                   Thank you for spending time exploring our site! We're deeply grateful for your interest in NSTM.
                 </p>
                 <p>
-                  We're working passionately behind the scenes to bring our delicious snacks to your doorstep. The warmth and excitement you've shown means the world to us.
+                  Owning a brand with zero experience and no real-world exposure, sounda crazy, right? From casually joking about launching our own food stall at RECHARGE'25 to hustling for stock, every step was a thrilling ride. Bunking classes didn't feel as cool as brainstorming at the front bench, turning our ideas into reality.
                 </p>
                 <p>
-                  Our team is putting their heart and soul into perfecting every recipe, ensuring when we officially launch, your taste buds will experience nothing short of extraordinary.
+                  But none of this would have been possible without you, the amazing people of REC who stopped by, grabbed a bite and made our stall come alive. We never had a dull moment and special shoutout to those who kept coming back for more.
                 </p>
                 <p className="text-lg font-medium text-primary/90 mt-6">
-                  We look forward to welcoming you at our next depot, where flavors and memories await creation!
+                  It's time to say a huge, heartfelt thank you for making this journey unforgettable. Until next time, it's NSTM here, signing off...
                 </p>
               </div>
             </div>
