@@ -93,16 +93,16 @@ const About = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {[
-                { name: "Dilip Kannan K", role: "Executive Chef & Culinary Strategist" },
-                { name: "Giridhar U", role: "Head Chef & Business Operations Lead" },
-                { name: "Ezhil Adhithya P", role: "Food Aesthetic Curator & Presentation Expert" },
-                { name: "Amirtha", role: "Gastronomy Designer & Flavor Stylist" },
-                { name: "Adharsh S", role: "Billing Maestro & Order Flow Coordinator" },
-                { name: "Ishana S", role: "Finance & Customer Experience Architect" },
-                { name: "Meenakshi G", role: "Cash Flow Specialist & Guest Engagement" },
-                { name: "Aravind s", role: "Plating Perfectionist & Dining Experience Specialist" },
-                { name: "Lokesh Raj J", role: "Food Aesthetic Curator & Presentation Expert" },
-                { name: "Ragul", role: "Video Editor | Turning Vision into Motion" },
+                { name: "Dilip Kannan K", role: "Executive Chef & Culinary Strategist", img:"/photos/Dilip.jpg" },
+                { name: "Giridhar U", role: "Head Chef & Business Operations Lead", img:"/photos/giri.jpg" },
+                { name: "Ezhil Adhithya P", role: "Food Aesthetic Curator & Presentation Expert", img:"/photos/ezhil.jpg" },
+                { name: "Amirtha", role: "Gastronomy Designer & Flavor Stylist", img:"/photos/amir.jpg" },
+                { name: "Adharsh S", role: "Billing Maestro & Order Flow Coordinator", img:"/photos/adharsh.jpg" },
+                { name: "Ishana S", role: "Finance & Customer Experience Architect", img:"/photos/ishana.jpg" },
+                { name: "Meenakshi G", role: "Cash Flow Specialist & Guest Engagement", img:"/photos/meena.jpg" },
+                { name: "Aravind s", role: "Plating Perfectionist & Dining Experience Specialist", img:"/photos/aravind.jpg" },
+                { name: "Lokesh Raj J", role: "Food Aesthetic Curator & Presentation Expert", img:"/photos/loki.jpg" },
+                { name: "Ragul", role: "Video Editor | Turning Vision into Motion", img:"/photos/ragul.jpg" },
               ].map((member, i) => (
                 <div
                   key={i}
@@ -113,7 +113,7 @@ const About = () => {
                 >
                   <div className="w-24 h-24 rounded-full bg-muted mx-auto mb-4 overflow-hidden">
                     <img
-                      src="/placeholder.svg"
+                      src={member.img}
                       alt={member.name}
                       className="w-full h-full object-cover"
                     />
